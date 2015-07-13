@@ -3,5 +3,5 @@
 cd /root/git/gitTest
 upTime=`date "+%Y-%m-%d %H:%M:%S"`
 cmt=${upTime}' Update'
-/usr/bin/git commit -am '$upTime'
+/usr/bin/git commit -am "$upTime"
 /usr/bin/git push origin master 
