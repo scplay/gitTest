@@ -1,7 +1,7 @@
 #!/bin/bash
 #echo "Back up to Github!"
-cd /root/git/gitTest/
+cd /root/git/gitTest
 upTime=`date "+%Y-%m-%d %H:%M:%S"`
-commit=${upTime}' Update'
-/usr/bin/git commit -am $commit
+cmt=${upTime}' Update'
+/usr/bin/git commit -am '$upTime'
 /usr/bin/git push origin master 
